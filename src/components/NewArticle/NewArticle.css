@@ -1,0 +1,17 @@
+.new-article {
+    padding-top: 31px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid var(--dark-grayish-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.new-article:first-of-type {
+    padding-top: unset;
+}
+
+.new-article:last-of-type {
+    padding-bottom: unset;
+    border-bottom: unset;
+}

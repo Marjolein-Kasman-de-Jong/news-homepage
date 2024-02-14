@@ -1,0 +1,12 @@
+h4 {
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.6rem;
+    color: var(--very-dark-blue);
+    margin-top: 12px;
+}
+
+h4:hover {
+    cursor: pointer;
+    color: var(--soft-red);
+}

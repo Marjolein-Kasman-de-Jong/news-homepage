@@ -1,0 +1,17 @@
+.top-article {
+    display: flex;
+    gap: 24px;
+
+    @media screen and (min-width: 718px) {
+        width: 100%;
+        max-width: 317.250px;
+
+        @media screen and (min-width: 1110px) {
+            max-width: 350px;
+        }
+    }
+}
+
+.top-article h2 {
+    color: var(--grayish-blue);
+}

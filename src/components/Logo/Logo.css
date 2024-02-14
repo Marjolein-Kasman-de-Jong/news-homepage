@@ -1,0 +1,15 @@
+.logo-wrapper {
+    width: 44.977px;
+    height: 28px;
+    flex-grow: 0;
+
+    @media screen and (min-width: 1110px) {
+        width: 64.092px;
+        height: 39.9px;
+        flex-grow: 0;
+    }
+}
+
+.logo {
+    width: 100%;
+}

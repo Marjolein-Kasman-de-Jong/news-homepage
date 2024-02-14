@@ -1,0 +1,12 @@
+h3 {
+    font-size: 1.33333rem;
+    font-weight: 800;
+    line-height: 1.6rem;
+    color: var(--off-white);
+  }
+  
+  h3:hover {
+    cursor: pointer;
+    color: var(--soft-orange);
+  }
+  

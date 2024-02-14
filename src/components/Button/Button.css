@@ -1,0 +1,16 @@
+button {
+    padding: 12px 33px;
+    border: none;
+    background-color: var(--soft-red);
+    font-size: 0.93333rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+    letter-spacing: 0.29167rem;
+    color: var(--off-white);
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--very-dark-blue);
+}

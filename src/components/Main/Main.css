@@ -1,0 +1,10 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    @media screen and (min-width: 718px) {
+        flex-direction: row;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+h2 {
+    font-size: 2.13333rem;
+    font-weight: 700;
+    line-height: 2.13333rem;
+    color: var(--soft-orange); /* In veschillende componenten anders! */
+  
+    @media screen and (min-width: 1110px) {
+      font-size: 2.66667rem;
+      line-height: 2.66667rem;
+    }
+}

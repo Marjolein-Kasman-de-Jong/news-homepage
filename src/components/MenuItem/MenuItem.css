@@ -1,0 +1,17 @@
+li {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: var(--very-dark-blue);
+    list-style-type: none;
+  
+    @media screen and (min-width: 1110px) {
+      font-size: 1rem;
+      line-height: 1.73333rem;
+      color: var(--dark-grayish-blue); 
+    }
+  }
+  
+  li:hover {
+    cursor: pointer;
+    color: var(--soft-red);
+  }

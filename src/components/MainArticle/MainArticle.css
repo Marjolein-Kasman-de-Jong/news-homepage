@@ -1,0 +1,35 @@
+.main-article {
+    max-width: 343px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    @media screen and (min-width: 1110px) {
+        max-width: 730px;
+        gap: 30px;
+    }
+}
+
+.content-wrapper-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media screen and (min-width: 1110px) {
+        width: 100%;
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+.content-wrapper-2 {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    @media screen and (min-width: 1110px) {
+        gap: 29px;
+    }
+}

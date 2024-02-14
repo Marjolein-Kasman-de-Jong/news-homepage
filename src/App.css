@@ -1,0 +1,15 @@
+body {
+  max-width: 375px;
+  padding: 0 16px;
+  margin: 0 auto;
+  position: relative;
+  background-color: var(--off-white);
+
+  @media screen and (min-width: 718px) {
+    max-width: 718px;
+
+    @media screen and (min-width: 1110px) {
+      max-width: 1110px;
+    }
+  }
+}
